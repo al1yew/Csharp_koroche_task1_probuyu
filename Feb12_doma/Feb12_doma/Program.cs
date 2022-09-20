@@ -6,6 +6,7 @@ namespace Feb12_doma
     {
         static void Main(string[] args)
         {
+            #region(IsPrime)
             Console.WriteLine("Salam, sizi IsPrime saytinda xosh gorduk");
             Console.WriteLine("Her hansi deyeri daxil edin, biz size sade ya murekkeb oludugunu deyek!");
 
@@ -24,6 +25,21 @@ namespace Feb12_doma
             {
                 Console.WriteLine("Sade ededdir.");
             }
+            #endregion(IsPrime)
+
+            #region(CalcAvg)
+
+            int[] myArr = { 20, 40, 30, 50 };
+            if (CalcAvg(myArr) > 60)
+            {
+                Console.WriteLine("Imtahannan kecdiniz!");
+            }
+            else
+            {
+                Console.WriteLine("Imtahannan kesildiz!");
+            }
+
+            #endregion(CalcAvg)
         }
         static bool IsPrime(int a)
         {
@@ -47,19 +63,25 @@ namespace Feb12_doma
             }
             return false;
         }
-
-        static void FindCharIndex(string a, char b)
-        { 
-            
-        
-        
-        
-        
-        
-        
-        
-        
+        static int FindCharIndex(string word, char letter)
+        {
+            if (word.IndexOf(letter) == 1)   //IndexOf methodunu internetde tapdim research zamani
+            {
+                return -1;
+            }
+            else
+            {
+                return word.IndexOf(letter);
+            }
         }
-
+        static int CalcAvg(params int[] arr)
+        {
+            int Sum = 0;
+            foreach (int item in arr)
+            {
+                Sum += item;
+            }
+            return Sum / arr.Length;
+        }
     }
 }
