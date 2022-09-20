@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\programming\\vse zadaniya vnutri etoy papki\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj": {}
+    "C:\\Users\\hp\\Desktop\\programming\\C# & algorithms\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\programming\\vse zadaniya vnutri etoy papki\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj": {
+    "C:\\Users\\hp\\Desktop\\programming\\C# & algorithms\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\programming\\vse zadaniya vnutri etoy papki\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\programming\\C# & algorithms\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj",
         "projectName": "Feb12_doma",
-        "projectPath": "C:\\Users\\hp\\Desktop\\programming\\vse zadaniya vnutri etoy papki\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\programming\\C# & algorithms\\Feb12_doma\\Feb12_doma\\Feb12_doma\\Feb12_doma.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\programming\\vse zadaniya vnutri etoy papki\\Feb12_doma\\Feb12_doma\\Feb12_doma\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\programming\\C# & algorithms\\Feb12_doma\\Feb12_doma\\Feb12_doma\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     }
